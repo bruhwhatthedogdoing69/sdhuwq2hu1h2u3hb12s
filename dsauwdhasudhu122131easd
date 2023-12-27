@@ -1,0 +1,6 @@
+local loops = {}
+
+Loops.spam = true
+repeat wait()
+game.Players:Chat(":money_mouth:")
+until not Loops.spam
